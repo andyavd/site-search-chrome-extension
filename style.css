@@ -1,0 +1,69 @@
+body {
+    
+font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+
+font-size: 100%;
+
+width:390px;
+
+height:100px;
+
+background: url("images/mainlogo.gif") no-repeat 10px 10px,
+linear-gradient(to right, white, white 40%,lightgray);
+
+
+}
+.searchdesc {
+width:202px;
+height:50px;
+position:relative;
+left:180px;
+font-family: Arial BLack;
+color:#727272;
+font-size:18px;
+text-align:center;
+}
+#entertext {
+    
+position: relative;
+    
+top:15px;
+    
+left:180px;
+    
+width:170px;
+    
+font-size:12px;
+    
+padding: 4px 25px 4px 6px;
+    
+border:1ps solid #333333;
+border-radius: 5px;
+color: #747882;
+
+outline:none;
+
+}
+
+#finalquery, #site {
+display:none;
+}
+.sendsubmit{
+
+background: transparent url("images/top_search_button_bg.gif") no-repeat;
+
+border: 0;
+    
+width: 22px;
+
+height: 22px;
+
+position: relative;
+
+left:152px;
+
+top:21px;
+
+cursor: pointer;   
+}
+
